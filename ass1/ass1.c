@@ -60,11 +60,6 @@ main(int argc, char **argv)
         exit(3);
     }
 
-    switch (h++ - w) {
-        default:
-        break;
-    }
-
     g.width = w;
     g.height = h;
     g.num_players = p;
